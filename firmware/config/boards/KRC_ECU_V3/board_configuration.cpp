@@ -1,4 +1,6 @@
 #include "pch.h"
+#include "defaults.h"
+#include "board_overrides.h"
 
 Gpio getCommsLedPin() {
     return Gpio::Unassigned;
@@ -10,7 +12,7 @@ Gpio getWarningLedPin() {
     return Gpio::Unassigned;
 }
 
-void setBoardDefaultConfiguration() {
+static void KRC_ECU_V3_boardDefaultConfiguration() {
 
 	//Digital out
 	engineConfiguration->boostControlPin = Gpio::A8;
@@ -100,4 +102,8 @@ void setBoardDefaultConfiguration() {
 	//Knock 
 	engineConfiguration->enableSoftwareKnock = true;
 
+}
+
+void setup_custom_board_overrides() {
+	custom_board_DefaultConfiguration = KRC_ECU_V3_boardDefaultConfiguration;
 }
