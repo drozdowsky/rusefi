@@ -26,3 +26,4 @@
 #define show_Proteus_presets false
 #define ts_show_alternator_control false 
 #define ts_show_vvt false
+#define ts_show_wideband_tools false
