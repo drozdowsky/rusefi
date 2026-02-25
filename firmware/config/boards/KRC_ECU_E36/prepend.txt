@@ -48,5 +48,5 @@
 
 #define MAX_CYLINDER_COUNT 6
 
-#define vvlControl_NAME "VANOS"
+#define VvlControlDialog_NAME "Vanos Control"
 
