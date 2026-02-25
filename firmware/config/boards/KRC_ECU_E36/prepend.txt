@@ -51,6 +51,6 @@
 
 #define MAX_CYLINDER_COUNT 6
 #define ETB_COUNT 1
-#define DC_PER_STEPPER 1
+
 
 
