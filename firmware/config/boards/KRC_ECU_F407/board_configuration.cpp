@@ -60,10 +60,10 @@ static void KRC_ECU_F407_boardDefaultConfiguration() {
 
 	// SPI2 EGT
 	engineConfiguration->is_enabled_spi_2 = true;
-	engineConfiguration->spi1mosiPin = Gpio::Unassigned;
-	engineConfiguration->spi1misoPin = Gpio::B14;
-	engineConfiguration->spi1sckPin = Gpio::B13;
   engineConfiguration->max31855spiDevice = SPI_DEVICE_2;
+	engineConfiguration->spi2mosiPin = Gpio::Unassigned;
+	engineConfiguration->spi2misoPin = Gpio::B14;
+	engineConfiguration->spi2sckPin = Gpio::B13;
 	engineConfiguration->max31855_cs[0] = Gpio::B12;
 
   //SPI3 SD card
