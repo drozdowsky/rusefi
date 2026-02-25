@@ -59,9 +59,9 @@ static void KRC_ECU_V3_boardDefaultConfiguration() {
 
 	// SPI2 EGT
 	engineConfiguration->is_enabled_spi_2 = true;
-	engineConfiguration->spi1mosiPin = Gpio::Unassigned;
-	engineConfiguration->spi1misoPin = Gpio::B14;
-	engineConfiguration->spi1sckPin = Gpio::B13;
+	engineConfiguration->spi2mosiPin = Gpio::Unassigned;
+	engineConfiguration->spi2misoPin = Gpio::B14;
+	engineConfiguration->spi2sckPin = Gpio::B13;
   engineConfiguration->max31855spiDevice = SPI_DEVICE_2;
 	engineConfiguration->max31855_cs[0] = Gpio::B12;
 
