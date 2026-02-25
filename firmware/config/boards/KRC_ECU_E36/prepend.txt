@@ -38,6 +38,7 @@
 #define ts_show_vvt_output false
 #define ts_show_ign_key_menu false
 #define ts_show_ecu_stimulator false
+#define ts_show_live_data true
 #define ts_show_cylinder_7 false
 #define ts_show_cylinder_8 false
 #define ts_show_cylinder_9 false
@@ -47,5 +48,5 @@
 
 #define MAX_CYLINDER_COUNT 6
 
-#define VVL_CONTROL_NAME "VANOS"
+#define vvlControl_NAME "VANOS"
 
