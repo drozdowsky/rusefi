@@ -47,3 +47,5 @@
 
 #define MAX_CYLINDER_COUNT 6
 
+#define VVL_CONTROL "VANOS"
+
